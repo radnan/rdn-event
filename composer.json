@@ -1,0 +1,23 @@
+{
+	"name": "radnan/rdn-event",
+	"description": "Zend Framework 2 event listener manager",
+	"keywords": ["zf2", "zend", "event", "listener"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "radnan",
+			"email": "rafiadnan47@gmail.com"
+		}
+	],
+	"require": {
+		"zendframework/zend-eventmanager": "2.*",
+		"zendframework/zend-mvc": "2.*",
+		"zendframework/zend-servicemanager": "2.*",
+		"zendframework/zend-stdlib": "2.*"
+	},
+	"autoload": {
+		"psr-0": {
+			"RdnEvent\\": "src/"
+		}
+	}
+}
